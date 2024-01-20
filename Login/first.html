@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     /* Basic styling for the textbox */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none; /* Remove default outline on focus */
+}
+
+/* Add styles for focus state */
+input[type="text"]:focus {
+    border-color: #007bff; /* Change border color on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add a subtle box shadow on focus */
+}
+
+    </style>
+</head>
+
+<body>
+    <input type="text" id="textInput" value="A for Apple">
+    <button id="speakButton">Speak</button>
+    
+    <script src="script.js"></script>
+     
+</body>
+</html>
